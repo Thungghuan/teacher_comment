@@ -63,4 +63,7 @@ document.querySelector('textarea').value = `${teacherName}老师${comment.join(
   '，'
 )}。`
 
+// 2022.6.24更新，防止弹出禁止脚本注入的弹窗
+$("#btn_xspj_tj").data('enter', true)
+
 document.querySelector('#btn_xspj_tj').click()
