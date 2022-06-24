@@ -24,12 +24,12 @@
 
 翻了下源码，是这么一回事
 
-![原码1](docs/screenshot2.png)
+![源码1](docs/screenshot2.png)
 
-![原码2](docs/screenshot3.png)
+![源码2](docs/screenshot3.png)
 
 所以按其方式给这个`enter`赋值即可(注意`this`的指向)
 
 ```js
-$("#btn_xspj_tj").data('enter', true)
+$('#btn_xspj_tj').data('enter', true)
 ```
