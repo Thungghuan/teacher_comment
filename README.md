@@ -22,7 +22,7 @@
 
 ![警告图片](docs/screenshot1.png)
 
-翻了下原码，是这么一回事
+翻了下源码，是这么一回事
 
 ![原码1](docs/screenshot2.png)
 
